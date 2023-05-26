@@ -1,0 +1,17 @@
+ 
+
+   
+    public static void main(String[] args) {
+         Calculadora miCalculadora =  new Calculadora();
+         
+         int resultadoSuma = miCalculadora.sumar(3,5);
+         System.out.println("El resultado de la suma es: "+resultadoSuma);
+         
+         int resultadoResta = miCalculadora.restar(10,4);
+         System.out.println("El resultado de la resta es : "+resultadoResta);
+         
+         int resultado = miCalculadora.getResultado();
+         System.out.println("El resultado actual es: "+resultado);
+     }
+   }
+}
