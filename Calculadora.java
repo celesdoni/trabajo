@@ -19,11 +19,11 @@ public class Calculadora {
     return resultado1();
   }
 
-private int resultado1() {
-	return resultado;
+  private int resultado1() {
+     return resultado;
 }
 
-private void resultado(int resultado) {
-	this.resultado = resultado;
+ private void resultado(int resultado) {
+     this.resultado = resultado;
 }
 }
